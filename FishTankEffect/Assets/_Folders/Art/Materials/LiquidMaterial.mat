@@ -36,7 +36,7 @@ Material:
     - Ambient_Occlusion: 0
     - DisplacementSpeed: 0.6
     - DisplacementStrength: 0.13
-    - Fill: 0.18
+    - Fill: 0.71
     - Metalic: 12.69
     m_Colors:
     - Albedo: {r: 0, g: 0.2895302, b: 0.4056604, a: 0}

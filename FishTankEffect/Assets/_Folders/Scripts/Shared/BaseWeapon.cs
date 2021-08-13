@@ -50,7 +50,6 @@ public class BaseWeapon : MonoBehaviour
             owner?.onAmmoInMagChanged?.Invoke(_currentAmmoInMag);
             if (currentAmmoInMag <= 0)   // reload if we just got ammo and we empty
             {
-                print("AQQI AQQI");
                 TryReload();
             }
         }
@@ -180,12 +179,25 @@ public class BaseWeapon : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(owner.plrCont.playerCam.transform.position, bulletDirection, out hit, 1000, layerMask, QueryTriggerInteraction.Ignore))
             {
-                print("Hit: " + hit.collider.name);
                 GameObject decal =  GameObject.CreatePrimitive(PrimitiveType.Sphere);
-
                 decal.transform.position = hit.point;
-                decal.transform.localScale = Vector3.one * 0.3f;
+                decal.transform.localScale = Vector3.one * 0.1f;
                 decal.GetComponent<Renderer>().material.color = Color.red;
+
+                print("Hit: " + hit.collider.name);
+                float abba = hit.collider.transform.InverseTransformPoint(hit.point).y;
+                print("Converted to Fishtank Space: \t" + abba);
+
+                // Fish Tank hit range = 0.5, -0.5
+                // ^ convert to 0, 1
+                
+                print("Converted to fishy percent: " + abba.Remap(-0.5f, 0.5f, 0, 1));
+
+                IShootable shootable = hit.transform.GetComponent<IShootable>();
+                if (shootable != null)
+                {
+                    shootable.OnShot(hit);
+                }
             }
         }
 

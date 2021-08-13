@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 5000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -33,13 +33,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - Alpha: 0.47
+    - GradientMultiplier: 1
     - WaveIntensity: 0.75
-    - WaveScale: 1
+    - WaveScale: 1.78
     - WaveSpeed: 1
     - _Float: 0
     m_Colors:
     - AbbaColor: {r: 0, g: 0.9101777, b: 1, a: 0}
     - Albedo: {r: 0, g: 1, b: 0.08974171, a: 0}
+    - BaseColor: {r: 0.3018868, g: 0, b: 0.014459575, a: 1}
     - Direction: {r: 0, g: 1, b: 0, a: 0}
-    - GradientMinMax: {r: 0, g: -0.38, b: 0, a: 0}
+    - GradientMinMax: {r: 30, g: 33, b: 0, a: 0}
+    - TopColor: {r: 0, g: 0.909091, b: 1, a: 1}
   m_BuildTextureStacks: []
