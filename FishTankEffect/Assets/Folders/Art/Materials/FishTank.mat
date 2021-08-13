@@ -43,5 +43,5 @@ Material:
     m_Floats:
     - IndexofRefraction: 0
     m_Colors:
-    - Albedo: {r: 0.066037714, g: 0.066037714, b: 0.066037714, a: 0}
+    - Albedo: {r: 0.16981131, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
