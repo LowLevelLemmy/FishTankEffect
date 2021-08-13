@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Skybox
   m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _SUNDISK_HIGH_QUALITY
+  m_ShaderKeywords: _SUNDISK_SIMPLE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -78,7 +78,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AtmosphereThickness: 0
+    - _AtmosphereThickness: 3.5
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -89,7 +89,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _Exposure: 0
+    - _Exposure: 5.49
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -102,9 +102,9 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunDisk: 2
-    - _SunSize: 0
-    - _SunSizeConvergence: 1
+    - _SunDisk: 1
+    - _SunSize: 0.588
+    - _SunSizeConvergence: 6.71
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -112,8 +112,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SkyTint: {r: 0, g: 0, b: 0, a: 1}
+    - _GroundColor: {r: 0.754717, g: 0.6650053, b: 0.6650053, a: 1}
+    - _SkyTint: {r: 0.9622642, g: 0.9568174, b: 0.9568174, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1700315183403907065
