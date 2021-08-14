@@ -61,11 +61,9 @@ MonoBehaviour:
   adsSpeed: 20
   adsFOV: 60
   aimingPos: {x: 0, y: -0.038, z: 0.118}
-  bottomLessMag: 0
+  bottomLessMag: 1
   maxAmmoMag: 6
   maxAmmoHeld: 12
-  _currentAmmoInMag: 0
-  _currentAmmoHeld: 0
   animator: {fileID: 1972219303554074099}
   muzzleFlash: {fileID: 5713208248628426707}
   fireNoise: {fileID: 8300000, guid: 40c7b9e92a1f70b4f8d2364c26c11314, type: 3}

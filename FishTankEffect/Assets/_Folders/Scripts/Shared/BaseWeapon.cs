@@ -179,10 +179,10 @@ public class BaseWeapon : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(owner.plrCont.playerCam.transform.position, bulletDirection, out hit, 1000, layerMask, QueryTriggerInteraction.Ignore))
             {
-                GameObject decal =  GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                decal.transform.position = hit.point;
-                decal.transform.localScale = Vector3.one * 0.1f;
-                decal.GetComponent<Renderer>().material.color = Color.red;
+                //GameObject decal =  GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                //decal.transform.position = hit.point;
+                //decal.transform.localScale = Vector3.one * 0.1f;
+                //decal.GetComponent<Renderer>().material.color = Color.red;
 
                 print("Hit: " + hit.collider.name);
                 float abba = hit.collider.transform.InverseTransformPoint(hit.point).y;
