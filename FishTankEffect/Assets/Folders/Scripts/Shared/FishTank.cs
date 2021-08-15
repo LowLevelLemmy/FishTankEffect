@@ -7,6 +7,7 @@ public class FishTank : MonoBehaviour, IShootable
 {
     [SerializeField] GameObject bulletHoleSprite;
     [SerializeField] GameObject waterParticle;
+    [SerializeField] Vector2 remapRange;
 
     Material mat;
     float gunshotPoint = 999999999;
@@ -25,6 +26,8 @@ public class FishTank : MonoBehaviour, IShootable
         spawnedDecal.transform.position = hit.point;
         spawnedDecal.transform.rotation = Quaternion.LookRotation(hit.normal);
 
+        print(hit.collider.transform.InverseTransformPoint(hit.point).y);
+
         float factor = CalcGunshotFactor(hit);
         if (factor < gunshotPoint)
         {
@@ -36,7 +39,7 @@ public class FishTank : MonoBehaviour, IShootable
     float CalcGunshotFactor(RaycastHit hit)
     {
         float abba = hit.collider.transform.InverseTransformPoint(hit.point).y;
-        return abba.Remap(-0.5f, 0.5f, 0, 1) - 0.04f;   // subtracted just to make sure it's BELOW the bullet hole
+        return abba.Remap(remapRange.x, remapRange.y, 0, 1) - 0.04f;   // subtracted just to make sure it's BELOW the bullet hole
     }
 
     void AnimateWaterToGunshotPoint(RaycastHit hit)

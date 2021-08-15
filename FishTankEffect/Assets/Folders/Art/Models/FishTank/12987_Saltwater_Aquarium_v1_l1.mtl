@@ -1,0 +1,188 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 06.01.2012 14:19:28
+
+newmtl 12987_saltwater_aquarium_plastic_1
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0980 0.0980 0.0980
+	Kd 0.0980 0.0980 0.0980
+	Ks 0.5940 0.5940 0.5940
+	Ke 0.0000 0.0000 0.0000
+
+newmtl 12987_saltwater_aquarium_glass
+	Ns 66.0000
+	Ni 1.5000
+	d 0.0500
+	Tr 0.9500
+	Tf 0.0500 0.0500 0.0500 
+	illum 2
+	Ka 0.5451 0.7608 1.0000
+	Kd 0.5451 0.7608 1.0000
+	Ks 0.6300 0.6300 0.6300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl 12987_saltwater_aquarium_rock_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_rock_1_diff.jpg
+	map_Kd 12987_saltwater_aquarium_rock_1_diff.jpg
+
+newmtl 12987_saltwater_aquarium_sand
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_sand_diff.jpg
+	map_Kd 12987_saltwater_aquarium_sand_diff.jpg
+
+newmtl 12987_saltwater_aquarium_rock_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_rock_2_diff.jpg
+	map_Kd 12987_saltwater_aquarium_rock_2_diff.jpg
+
+newmtl 12987_saltwater_aquarium_rock_4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_rock_4_diff.jpg
+	map_Kd 12987_saltwater_aquarium_rock_4_diff.jpg
+
+newmtl 12987_saltwater_aquarium_rock_5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_rock_5_diff.jpg
+	map_Kd 12987_saltwater_aquarium_rock_5_diff.jpg
+
+newmtl 12987_saltwater_aquarium_rock_6
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_rock_6_diff.jpg
+	map_Kd 12987_saltwater_aquarium_rock_6_diff.jpg
+
+newmtl 12987_saltwater_aquarium_rock_7
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_rock_7_diff.jpg
+	map_Kd 12987_saltwater_aquarium_rock_7_diff.jpg
+
+newmtl 12987_saltwater_aquarium_rock_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_rock_3_diff.jpg
+	map_Kd 12987_saltwater_aquarium_rock_3_diff.jpg
+
+newmtl 12987_saltwater_aquarium_stone
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12987_saltwater_aquarium_stone_diff.jpg
+	map_Kd 12987_saltwater_aquarium_stone_diff.jpg
+
+newmtl 12987_saltwater_aquarium_glass_2
+	Ns 16.0000
+	Ni 1.5000
+	d 0.5000
+	Tr 0.5000
+	Tf 0.5000 0.5000 0.5000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.3600 0.3600 0.3600
+	Ke 0.0000 0.0000 0.0000
+
+newmtl 12987_saltwater_aquarium_glass_5
+	Ns 66.0000
+	Ni 1.5000
+	d 0.0500
+	Tr 0.9500
+	Tf 0.0500 0.0500 0.0500 
+	illum 2
+	Ka 0.5922 0.6784 0.6549
+	Kd 0.5922 0.6784 0.6549
+	Ks 0.6300 0.6300 0.6300
+	Ke 0.0000 0.0000 0.0000
+
+newmtl 12987_saltwater_aquarium_rubber
+	Ns 4.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1137 0.1137 0.1137
+	Kd 0.1137 0.1137 0.1137
+	Ks 0.2610 0.2610 0.2610
+	Ke 0.0000 0.0000 0.0000
