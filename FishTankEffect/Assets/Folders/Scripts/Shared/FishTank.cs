@@ -44,7 +44,7 @@ public class FishTank : MonoBehaviour, IShootable
 
     void AnimateWaterToGunshotPoint(RaycastHit hit)
     {
-        mat.DOComplete();   // Clear previous tweens... hopefully?
+        //mat.DOComplete();   // Clear previous tweens... hopefully?    // it breaks the effect womp womp
         float previousValue = mat.GetFloat("GradientMultiplier");
         float distance = previousValue - gunshotPoint;
         float duration = distance * timeItTakesForTheEntireTankToEmpty;

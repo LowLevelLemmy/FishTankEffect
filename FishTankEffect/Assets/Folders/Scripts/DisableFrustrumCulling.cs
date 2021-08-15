@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class DisableFrustrumCulling : MonoBehaviour
 {
-    private Camera cam;
+    Camera cam;
 
-    void Start()
+    void OnEnable()
     {
         cam = Camera.main;
     }
 
     void Update()
     {
+        if (cam == null)
+            return;
         // boundsTarget is the center of the camera's frustum, in world coordinates:
         Vector3 camPosition = cam.transform.position;
         Vector3 normCamForward = Vector3.Normalize(cam.transform.forward);
