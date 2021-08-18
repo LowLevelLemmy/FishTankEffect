@@ -7,6 +7,6 @@ public class StartButton : MonoBehaviour
 {
     public void PressStart()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
